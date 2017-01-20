@@ -20,7 +20,7 @@ def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
 
 def emp(f):
     poses=[]
-    for y in range(4):
+    for y in range(16):
         for x in range(8):
             if f[y][x]==0:poses.append([y,x])
     return poses
